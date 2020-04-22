@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+
+    android:gravity="center|top"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".login">
+
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="606dp"
+      android:gravity="center"
+      android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:gravity="center"
+        android:text="Enter ID"
+        android:textColor="#000000"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/inut_id"
+        android:layout_width="173dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="id" />
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:gravity="center"
+        android:text="Enter your password"
+        android:textColor="#000000"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/inut_pwd"
+        android:layout_width="173dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="password"
+        android:inputType="textPassword" />
+
+    <LinearLayout
+        android:layout_width="244dp"
+        android:layout_height="119dp"
+        android:layout_gravity="center"
+        android:baselineAligned="false"
+        android:orientation="vertical">
+
+      <Button
+          android:id="@+id/btn_login"
+          android:layout_width="120dp"
+          android:layout_height="wrap_content"
+          android:layout_gravity="center"
+          android:text="Login"
+          android:textSize="16sp" />
+
+      <Button
+          android:id="@+id/btn_register"
+          android:layout_width="120dp"
+          android:layout_height="wrap_content"
+          android:layout_gravity="center"
+          android:text="Register"
+          android:textSize="16sp" />
+
+    </LinearLayout>
+
+
+  </LinearLayout>
+
+</LinearLayout>
